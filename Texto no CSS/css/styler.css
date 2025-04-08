@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Underdog&display=swap');
+ 
+/* alinhamento de texto */
+ 
+.alinhamento-direita{
+    text-align: right;
+  }
+   
+  .centralizar-container{
+      text-align: center;
+      width: 200px;
+      border:4px solid salmon;
+  }
+  .alinhamento-direita{
+    text-align: right;
+    ;
+ 
+}
+/*Decoração de Texto*/
+ 
+.underline{
+    text-decoration: underline;
+ 
+}
+ 
+.line-through{
+    text-decoration: line-through;
+ 
+}
+ 
+.remove-underline{
+text-decoration: none;
+color: orangered;
+}
+ 
+.overline{
+text-decoration: overline;
+color: chocolate;
+}
+ 
+/* transformação de texto */
+ 
+.maiusculo{
+    text-transform: uppercase;
+}
+.minusculo{
+    text-transform: lowercase;
+}
+.primeira-letra-minuscula{
+    text-transform: capitalize;
+}
+/* retorno ao formato original
+.primeira-letra-maiuscula {} */
+ 
+.spacing{
+    letter-spacing: 10px;
+}
+ 
+ 
+/* fontes */
+ 
+.fonte-serif{
+    font-family: serif;
+    }
+.fonte-sans-serif{
+    font-family: monospace;
+    }
+.fonte-monospace{
+    font-family: monospace;
+    }
+.fonte-cursive{
+    font-family: cursive;
+    }
+.fonte-fantasy{
+    font-family: fantasy;
+    }
+     
+.outra-fonte{
+        font-family:arial, helvetica, sans-serif;
+    }
+ 
+.trazer-fontes-do-google{
+    font-family: 'Lato', Courier, monospace;
+}  
+.fontes-google-2{
+    font-family: 'Codystar', sans-serif;
+    font-size: 45px;
+}
+ 
+/* estilo de fonte */
+ 
+.normal{
+    font-style: normal;
+}
+ 
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+#hotdog{
+    font-style: italic;
+}
+ 
+/* espessura da fonte */
+ 
+.lighter, .bold .bolder{
+    font-family: helvetica
+   }
+   
+   .lighter{
+       font-weight: 100;
+   }
+   .bold{
+       font-weight: 500;
+   }
+   
+   .bolder{
+       font-weight: 900;
+   }
+ 
+ /* tamanho da fonte */
+
+.tamanho-30x{
+    font-size: 30px;
+}
+
+.tamanho-150x{
+    font-size: 150px;
+}
+
+.xx-small{
+    font-size: xx-small;
+}
+
+.x-large{
+    font-size: xx-large;
+}
